@@ -1,0 +1,23 @@
+.game-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  border-radius: 3px;
+  border: 2px solid #000;
+}
+.selected {
+  border-color: blue;
+}
+
+.correct-match {
+  border-color: #66cc99;
+}
+
+.invalid-match {
+  border-color: red;
+}
